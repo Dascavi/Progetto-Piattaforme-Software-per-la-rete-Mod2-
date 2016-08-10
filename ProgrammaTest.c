@@ -170,7 +170,9 @@ int main(int argc, char **argv)
 
 //NELLA LIBRERIA RICORDATI DOPO OGNI FUNZIONE PRIMA DI CHIUDERE LA FUNZIONE DI FARE UNA STAMPA DEL TIPO FUNZIONA/NON FUNZIONA PER IL DEBUG
 
+//chiudo la libreria che ho utilizzato
 
+dlclose(handle);
 
 
 
